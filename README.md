@@ -19,13 +19,24 @@ We support:
 Older versions may work but aren't regularly tested.
 Bug reports for older versions are welcome.
 
+Changes to fork
+---------------
+
+* Removed unused brew packages
+
 Install
 -------
 
 Download the script:
 
 ```sh
-curl --remote-name https://raw.githubusercontent.com/thoughtbot/laptop/main/mac
+curl --remote-name https://raw.githubusercontent.com/aaronjbaptiste/laptop/main/mac
+```
+
+Download .laptop.local:
+
+```sh
+curl --remote-name https://raw.githubusercontent.com/aaronjbaptiste/dotfiles/master/laptop/.laptop.local
 ```
 
 Review the script (avoid running scripts you haven't read!):
